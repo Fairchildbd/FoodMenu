@@ -1,0 +1,2577 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Menu /> renders correctly 1`] = `
+<RCTScrollView
+  data={
+    Array [
+      Object {
+        "description": "Cheese",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.7d3b623ceb66e87fc7247fa81c6cfdc1.1.jpg?width=800",
+        "name": "Margherita",
+        "price": "$4.49",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 279,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 375,
+              },
+            ],
+            "mediumstuffedcrustvegkebab": Array [
+              Object {
+                "price": 375,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+      Object {
+        "description": "Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.954d93452557209bebe0b7f49e776ba2.1.jpg?width=522",
+        "name": "Tandoori Paneer",
+        "price": "$5.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 529,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+      Object {
+        "description": "Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.403f5e6cf9abb29247a97732c8aae860.1.jpg?width=800",
+        "name": "Veggie Supreme",
+        "price": "$5.69",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 569,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+      Object {
+        "description": "Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.9d215eb865735ce44225317997153b73.1.jpg?width=522",
+        "name": "Double Paneer Supreme",
+        "price": "$5.69",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 569,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+      Object {
+        "description": "Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.6895b792bfdd274d1bb822ff8dc1a69b.1.jpg?width=522",
+        "name": "Veggie Kebab Surprise",
+        "price": "$5.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 529,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+      Object {
+        "description": "Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.f29fa58b7f2a3ec307b6c0b44411f900.1.jpg?width=522",
+        "name": "Chicken Supreme",
+        "price": "$6.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+            "mediumstuffedcrustchickenseekhkebab": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Chicken Tikka,Chicken Malai Tikka,Onion,Red Paprika",
+        "id": 7,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
+        "name": "Chicken Tikka Supreme",
+        "price": "$6.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+            "mediumstuffedcrustchickenseekhkebab": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Schezwan Chicken Meatball Herbed Chicken,Chicken Sausage,Geen Capsicum, Onion,Red Paprika",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.21e57422a5579843b4722a067fbda8ca.1.jpg?width=522",
+        "name": "Triple Chicken Feast",
+        "price": "$6.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 629,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+            "mediumstuffedcrustchickenseekhkebab": Array [
+              Object {
+                "price": 725,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Chicken Tikka, Onion, Tomato",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.4e3ef28838886936da1a2280543cfae8.1.jpg?width=522",
+        "name": "Chicken Tikka",
+        "price": "$5.69",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 569,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+            "mediumstuffedcrustchickenseekhkebab": Array [
+              Object {
+                "price": 665,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Chicken Sausage",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.27693ba787c68a763bb3f0e397de0019.1.jpg?width=522",
+        "name": "Double Chicken Sausage",
+        "price": "$5.29",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "mediumPan": Array [
+              Object {
+                "price": 529,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+            "mediumstuffedcrustchickenseekhkebab": Array [
+              Object {
+                "price": 625,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Schezwan Chicken Meatball Onion",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-chicken-meatballs.fcb515f6af388d6e30df81ca2968798c.1.jpg?width=522",
+        "name": "Spiced Chicken Meatballs",
+        "price": "$4.69",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 565,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 469,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 565,
+              },
+            ],
+          },
+        ],
+        "veg": false,
+      },
+      Object {
+        "description": "Extra Cheese on Cheese",
+        "id": 361,
+        "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg?width=522",
+        "name": "Double Cheese",
+        "price": "$4.19",
+        "quantity": 1,
+        "sizeandcrust": Array [
+          Object {
+            "medium stuffed crust-veg kebab": Array [
+              Object {
+                "price": 515,
+              },
+            ],
+            "mediumPan": Array [
+              Object {
+                "price": 419,
+              },
+            ],
+            "mediumstuffedcrustcheesemax": Array [
+              Object {
+                "price": 515,
+              },
+            ],
+          },
+        ],
+        "veg": true,
+      },
+    ]
+  }
+  disableVirtualization={false}
+  getItem={[Function]}
+  getItemCount={[Function]}
+  horizontal={false}
+  initialNumToRender={10}
+  keyExtractor={[Function]}
+  maxToRenderPerBatch={10}
+  onContentSizeChange={[Function]}
+  onEndReachedThreshold={2}
+  onLayout={[Function]}
+  onMomentumScrollEnd={[Function]}
+  onScroll={[Function]}
+  onScrollBeginDrag={[Function]}
+  onScrollEndDrag={[Function]}
+  removeClippedSubviews={false}
+  renderItem={[Function]}
+  scrollEventThrottle={50}
+  stickyHeaderIndices={Array []}
+  updateCellsBatchingPeriod={50}
+  viewabilityConfigCallbackPairs={Array []}
+  windowSize={21}
+>
+  <View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Margherita
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.7d3b623ceb66e87fc7247fa81c6cfdc1.1.jpg?width=800",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Cheese
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $4.49
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Tandoori Paneer
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.954d93452557209bebe0b7f49e776ba2.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Veggie Supreme
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.403f5e6cf9abb29247a97732c8aae860.1.jpg?width=800",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.69
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Double Paneer Supreme
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.9d215eb865735ce44225317997153b73.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.69
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Veggie Kebab Surprise
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.6895b792bfdd274d1bb822ff8dc1a69b.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Chicken Supreme
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.f29fa58b7f2a3ec307b6c0b44411f900.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $6.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Chicken Tikka Supreme
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Chicken Tikka,Chicken Malai Tikka,Onion,Red Paprika
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $6.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Triple Chicken Feast
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.21e57422a5579843b4722a067fbda8ca.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Schezwan Chicken Meatball Herbed Chicken,Chicken Sausage,Geen Capsicum, Onion,Red Paprika
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $6.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Chicken Tikka
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.4e3ef28838886936da1a2280543cfae8.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Chicken Tikka, Onion, Tomato
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.69
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      onLayout={[Function]}
+      style={null}
+    >
+      <View
+        style={
+          Object {
+            "marginTop": 30,
+          }
+        }
+      >
+        <View
+          style={
+            Object {
+              "backgroundColor": "#5bd1d7",
+              "borderColor": "#e1e8ee",
+              "borderRadius": 10,
+              "borderWidth": 1,
+              "margin": 15,
+              "marginBottom": 0,
+              "padding": 15,
+              "shadowColor": "rgba(0,0,0, .2)",
+              "shadowOffset": Object {
+                "height": 0,
+                "width": 0,
+              },
+              "shadowOpacity": 1,
+              "shadowRadius": 1,
+            }
+          }
+        >
+          <View
+            style={
+              Object {
+                "backgroundColor": "transparent",
+              }
+            }
+          >
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "fontSize": 18,
+                  "fontWeight": "bold",
+                  "margin": 5,
+                  "marginBottom": 15,
+                  "textAlign": "center",
+                }
+              }
+              testID="cardTitle"
+            >
+              Double Chicken Sausage
+            </Text>
+            <View
+              style={
+                Object {
+                  "borderBottomColor": "white",
+                  "borderBottomWidth": 2,
+                  "marginBottom": 15,
+                }
+              }
+            />
+            <View
+              accessibilityIgnoresInvertColors={true}
+              style={
+                Object {
+                  "backgroundColor": "transparent",
+                  "overflow": "hidden",
+                  "position": "relative",
+                }
+              }
+            >
+              <Image
+                onLoad={[Function]}
+                source={
+                  Object {
+                    "uri": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.27693ba787c68a763bb3f0e397de0019.1.jpg?width=522",
+                  }
+                }
+                style={
+                  Object {
+                    "bottom": 0,
+                    "height": 150,
+                    "left": 0,
+                    "padding": 0,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image"
+                theme={
+                  Object {
+                    "colors": Object {
+                      "black": "#242424",
+                      "disabled": "hsl(208, 8%, 90%)",
+                      "divider": "#bcbbc1",
+                      "error": "#ff190c",
+                      "grey0": "#393e42",
+                      "grey1": "#43484d",
+                      "grey2": "#5e6977",
+                      "grey3": "#86939e",
+                      "grey4": "#bdc6cf",
+                      "grey5": "#e1e8ee",
+                      "greyOutline": "#bbb",
+                      "platform": Object {
+                        "android": Object {
+                          "error": "#f44336",
+                          "grey": "rgba(0, 0, 0, 0.54)",
+                          "primary": "#2196f3",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#9C27B0",
+                          "success": "#4caf50",
+                          "warning": "#ffeb3b",
+                        },
+                        "default": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "ios": Object {
+                          "error": "#ff3b30",
+                          "grey": "#7d7d7d",
+                          "primary": "#007aff",
+                          "searchBg": "#dcdce1",
+                          "secondary": "#5856d6",
+                          "success": "#4cd964",
+                          "warning": "#ffcc00",
+                        },
+                        "web": Object {
+                          "error": "#ff190c",
+                          "grey": "#393e42",
+                          "primary": "#2089dc",
+                          "searchBg": "#303337",
+                          "secondary": "#ca71eb",
+                          "success": "#52c41a",
+                          "warning": "#faad14",
+                        },
+                      },
+                      "primary": "#2089dc",
+                      "searchBg": "#303337",
+                      "secondary": "#ca71eb",
+                      "success": "#52c41a",
+                      "warning": "#faad14",
+                      "white": "#ffffff",
+                    },
+                  }
+                }
+                transition={true}
+                transitionDuration={360}
+              />
+              <View
+                accessibilityElementsHidden={true}
+                importantForAccessibility="no-hide-descendants"
+                pointerEvents="none"
+                style={
+                  Object {
+                    "bottom": 0,
+                    "left": 0,
+                    "opacity": 1,
+                    "position": "absolute",
+                    "right": 0,
+                    "top": 0,
+                  }
+                }
+              >
+                <View
+                  style={
+                    Object {
+                      "alignItems": "center",
+                      "backgroundColor": "#bdbdbd",
+                      "height": 150,
+                      "justifyContent": "center",
+                      "padding": 0,
+                      "width": null,
+                    }
+                  }
+                  testID="RNE__Image__placeholder"
+                />
+              </View>
+              <View
+                style={
+                  Object {
+                    "height": 150,
+                    "padding": 0,
+                    "width": null,
+                  }
+                }
+                testID="RNE__Image__children__container"
+              />
+            </View>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              Chicken Sausage
+            </Text>
+            <Text
+              style={
+                Object {
+                  "color": "white",
+                  "margin": 5,
+                }
+              }
+            >
+              $5.29
+            </Text>
+          </View>
+        </View>
+      </View>
+    </View>
+    <View
+      style={
+        Object {
+          "height": 0,
+        }
+      }
+    />
+  </View>
+</RCTScrollView>
+`;

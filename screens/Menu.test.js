@@ -1,11 +1,11 @@
 import React from 'react';
 import renderer from 'react-test-renderer';
 
-import App from './App';
+import { Menu } from './Menu';
 
-describe('<App />', () => {
+describe('<Menu />', () => {
   it('renders correctly', () => {
-    const tree = renderer.create(<App />).toJSON();
+    const tree = renderer.create(<Menu />).toJSON();
     expect(tree).toMatchSnapshot();
   });
 });

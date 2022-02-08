@@ -1,20 +1,21 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import React from 'react-native';
+import { Header } from 'react-native-elements';
+import { SafeAreaProvider } from 'react-native-safe-area-context';
+import { Menu } from './screens/Menu';
+
+const styles = {
+  heading: {
+    color: '#fff',
+    fontSize: 22,
+    fontWeight: 'bold',
+  },
+};
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <SafeAreaProvider>
+      <Header backgroundColor='#f24e49' centerComponent={ {text: 'Pizza', style: styles.heading} } />
+      <Menu />
+    </SafeAreaProvider>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
