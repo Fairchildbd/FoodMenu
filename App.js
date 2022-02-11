@@ -1,21 +1,45 @@
-import React from 'react-native';
-import { Header } from 'react-native-elements';
+import React, { PureComponent } from 'react';
 import { SafeAreaProvider } from 'react-native-safe-area-context';
-import { Menu } from './screens/Menu';
+import Menu from './screens/Menu/Menu';
+import { AddItem } from './screens/AddItem/AddItem';
+import { Pizzas } from './fixtures/PizzaData';
 
-const styles = {
-  heading: {
-    color: '#fff',
-    fontSize: 22,
-    fontWeight: 'bold',
-  },
-};
-
-export default function App() {
-  return (
-    <SafeAreaProvider>
-      <Header backgroundColor='#f24e49' centerComponent={ {text: 'Pizza', style: styles.heading} } />
-      <Menu />
-    </SafeAreaProvider>
-  );
+export default class App extends PureComponent {
+  constructor(props) {
+    super(props);
+    this.state = {
+      navigation: {
+        route: 'Home',
+        params: {}
+      }
+    }
+  }
+  navigationCallback = (navigationFromChild) => {
+    if(!!navigationFromChild) {
+      return this.setState({ navigation: navigationFromChild });
+    }
+    return this.state.navigation;
+  }
+  render() {
+    const { navigation } = this.state;
+    if (navigation.route === 'Home') {
+      return (
+        <SafeAreaProvider initialSafeAreaInsets={{ top: 1, left: 2, right: 3, bottom: 4 }}>
+          <Menu menu={ Pizzas } navigation={ this.navigationCallback }/>
+        </SafeAreaProvider>
+      );
+    } else if (navigation.route === 'Add Item') {
+      return (
+        <SafeAreaProvider initialSafeAreaInsets={{ top: 1, left: 2, right: 3, bottom: 4 }}>
+          <AddItem navigation={ this.navigationCallback } />
+        </SafeAreaProvider>
+      );
+    } else {
+      return (
+        <SafeAreaProvider initialSafeAreaInsets={{ top: 1, left: 2, right: 3, bottom: 4 }}>
+          <Menu menu={ Pizzas } navigation={ this.navigationCallback }/>
+        </SafeAreaProvider>
+      );
+    }
+  }
 }

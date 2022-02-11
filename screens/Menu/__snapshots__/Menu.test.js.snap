@@ -1,375 +1,111 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<App /> the screens renders the add item screen correctly 1`] = `
-<SafeAreaProvider
-  initialSafeAreaInsets={
+exports[`<Menu /> the screen handleDeleteItem can delete an item 1`] = `
+Object {
+  "menuState": Array [
     Object {
-      "bottom": 4,
-      "left": 2,
-      "right": 3,
-      "top": 1,
-    }
-  }
->
-  <MenuScreen
-    menu={
-      Array [
-        Object {
-          "description": "Cheese",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/margherita.7d3b623ceb66e87fc7247fa81c6cfdc1.1.jpg?width=800",
-          "name": "Margherita",
-          "price": "$4.49",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 279,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 375,
-                },
-              ],
-              "mediumstuffedcrustvegkebab": Array [
-                Object {
-                  "price": 375,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-        Object {
-          "description": "Spiced paneeer, Onion,Green Capsicum & Red Paprika in Tandoori Sauce",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/tandoori-paneer.954d93452557209bebe0b7f49e776ba2.1.jpg?width=522",
-          "name": "Tandoori Paneer",
-          "price": "$5.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 529,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-        Object {
-          "description": "Black Olives,Green Capsicum, Mushroom, Onion,Red Paprika, Sweet Corn",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veggie-supreme.403f5e6cf9abb29247a97732c8aae860.1.jpg?width=800",
-          "name": "Veggie Supreme",
-          "price": "$5.69",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 569,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-        Object {
-          "description": "Spiced Paneer, Herbed Onion&Green Capsicum, Red Paprika",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-paneer-supreme.9d215eb865735ce44225317997153b73.1.jpg?width=522",
-          "name": "Double Paneer Supreme",
-          "price": "$5.69",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 569,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-        Object {
-          "description": "Veg Kebab,Onion,Green Capsicum,Tomato & Sweet Corn in Tandoori Sauce",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/veg-kebab-surprise.6895b792bfdd274d1bb822ff8dc1a69b.1.jpg?width=522",
-          "name": "Veggie Kebab Surprise",
-          "price": "$5.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 529,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-        Object {
-          "description": "Herbed Chicken,Schezwan Chicken Meatball,Chicken Tikka",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-supreme.f29fa58b7f2a3ec307b6c0b44411f900.1.jpg?width=522",
-          "name": "Chicken Supreme",
-          "price": "$6.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-              "mediumstuffedcrustchickenseekhkebab": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Chicken Tikka,Chicken Malai Tikka,Onion,Red Paprika",
-          "id": 7,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka-supreme.d118fcb7a45549b90fc6313f8b45a9cf.1.jpg?width=522",
-          "name": "Chicken Tikka Supreme",
-          "price": "$6.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-              "mediumstuffedcrustchickenseekhkebab": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Schezwan Chicken Meatball Herbed Chicken,Chicken Sausage,Geen Capsicum, Onion,Red Paprika",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/triple-chicken-feast.21e57422a5579843b4722a067fbda8ca.1.jpg?width=522",
-          "name": "Triple Chicken Feast",
-          "price": "$6.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 629,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-              "mediumstuffedcrustchickenseekhkebab": Array [
-                Object {
-                  "price": 725,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Chicken Tikka, Onion, Tomato",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/chicken-tikka.4e3ef28838886936da1a2280543cfae8.1.jpg?width=522",
-          "name": "Chicken Tikka",
-          "price": "$5.69",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 569,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-              "mediumstuffedcrustchickenseekhkebab": Array [
-                Object {
-                  "price": 665,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Chicken Sausage",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-chicken-sausage.27693ba787c68a763bb3f0e397de0019.1.jpg?width=522",
-          "name": "Double Chicken Sausage",
-          "price": "$5.29",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "mediumPan": Array [
-                Object {
-                  "price": 529,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-              "mediumstuffedcrustchickenseekhkebab": Array [
-                Object {
-                  "price": 625,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Schezwan Chicken Meatball Onion",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/spiced-chicken-meatballs.fcb515f6af388d6e30df81ca2968798c.1.jpg?width=522",
-          "name": "Spiced Chicken Meatballs",
-          "price": "$4.69",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 565,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 469,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 565,
-                },
-              ],
-            },
-          ],
-          "veg": false,
-        },
-        Object {
-          "description": "Extra Cheese on Cheese",
-          "id": 361,
-          "img": "https://api.pizzahut.io/v1/content/en-in/in-1/images/pizza/double-cheese.f8ac8046d97de45670aa7d41b5cf8db6.1.jpg?width=522",
-          "name": "Double Cheese",
-          "price": "$4.19",
-          "quantity": 1,
-          "sizeandcrust": Array [
-            Object {
-              "medium stuffed crust-veg kebab": Array [
-                Object {
-                  "price": 515,
-                },
-              ],
-              "mediumPan": Array [
-                Object {
-                  "price": 419,
-                },
-              ],
-              "mediumstuffedcrustcheesemax": Array [
-                Object {
-                  "price": 515,
-                },
-              ],
-            },
-          ],
-          "veg": true,
-        },
-      ]
-    }
-    navigation={[Function]}
-  />
-</SafeAreaProvider>
+      "description": "It has a lot of pepperoni",
+      "img": "https://pepperoni.com",
+      "name": "Extra Pepperoni Pizza",
+      "price": "$10.00",
+    },
+    Object {
+      "description": "It has a lot of sausage",
+      "img": "https://sausage.com",
+      "name": "Extra Sausage Pizza",
+      "price": "$5.00",
+    },
+  ],
+  "pendingItem": Array [
+    Object {
+      "description": "It has a lot of sausage",
+      "img": "https://sausage.com",
+      "name": "Extra Sausage Pizza",
+      "price": "$5.00",
+    },
+  ],
+  "visible": true,
+}
 `;
 
-exports[`<App /> the screens renders the defaulted screen correctly 1`] = `
-<SafeAreaProvider
-  initialSafeAreaInsets={
-    Object {
-      "bottom": 4,
-      "left": 2,
-      "right": 3,
-      "top": 1,
+exports[`<Menu /> the screen has a render with initial props 1`] = `
+<React.Fragment>
+  <Themed.Header
+    backgroundColor="#f24e49"
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        },
+        "text": "Pizza",
+      }
     }
-  }
->
-  <MenuScreen
-    menu={
+    rightComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+      >
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+              }
+            }
+          >
+            Add Item
+          </Text>
+          <Themed.Icon
+            color="white"
+            name="add"
+          />
+        </ForwardRef>
+      </View>
+    }
+  />
+  <Themed.Overlay
+    isVisible={false}
+    onBackdropPress={[Function]}
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginVertical": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Are you sure you want to delete this item?
+    </Text>
+    <Themed.Button
+      buttonStyle={
+        Object {
+          "backgroundColor": "red",
+          "margin": 10,
+        }
+      }
+      onPress={[Function]}
+      testID="Confirm Delete"
+      title="Delete"
+    />
+  </Themed.Overlay>
+  <FlatList
+    data={
       Array [
         Object {
           "description": "Cheese",
@@ -709,24 +445,100 @@ exports[`<App /> the screens renders the defaulted screen correctly 1`] = `
         },
       ]
     }
-    navigation={[Function]}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
   />
-</SafeAreaProvider>
+</React.Fragment>
 `;
 
-exports[`<App /> the screens renders the home screen correctly 1`] = `
-<SafeAreaProvider
-  initialSafeAreaInsets={
-    Object {
-      "bottom": 4,
-      "left": 2,
-      "right": 3,
-      "top": 1,
+exports[`<Menu /> the screen has a render with params from props 1`] = `
+<React.Fragment>
+  <Themed.Header
+    backgroundColor="#f24e49"
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        },
+        "text": "Pizza",
+      }
     }
-  }
->
-  <MenuScreen
-    menu={
+    rightComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+      >
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+              }
+            }
+          >
+            Add Item
+          </Text>
+          <Themed.Icon
+            color="white"
+            name="add"
+          />
+        </ForwardRef>
+      </View>
+    }
+  />
+  <Themed.Overlay
+    isVisible={false}
+    onBackdropPress={[Function]}
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginVertical": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Are you sure you want to delete this item?
+    </Text>
+    <Themed.Button
+      buttonStyle={
+        Object {
+          "backgroundColor": "red",
+          "margin": 10,
+        }
+      }
+      onPress={[Function]}
+      testID="Confirm Delete"
+      title="Delete"
+    />
+  </Themed.Overlay>
+  <FlatList
+    data={
       Array [
         Object {
           "description": "Cheese",
@@ -1066,24 +878,180 @@ exports[`<App /> the screens renders the home screen correctly 1`] = `
         },
       ]
     }
-    navigation={[Function]}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
   />
-</SafeAreaProvider>
+</React.Fragment>
 `;
 
-exports[`<App /> the screens renders the home screen correctly 2`] = `
-<SafeAreaProvider
-  initialSafeAreaInsets={
+exports[`<Menu /> the screen renderItem can display an item, and press the delete icon 1`] = `
+<View
+  style={
     Object {
-      "bottom": 4,
-      "left": 2,
-      "right": 3,
-      "top": 1,
+      "marginVertical": 10,
     }
   }
 >
-  <MenuScreen
-    menu={
+  <Themed.Card
+    containerStyle={
+      Object {
+        "backgroundColor": "#5bd1d7",
+        "borderRadius": 10,
+      }
+    }
+  >
+    <ForwardRef
+      onPress={[Function]}
+      style={
+        Object {
+          "alignSelf": "flex-end",
+        }
+      }
+      testID="Delete-undefined"
+    >
+      <Themed.Icon
+        color="white"
+        name="delete"
+      />
+    </ForwardRef>
+    <Themed.CardTitle
+      style={
+        Object {
+          "color": "white",
+          "margin": 5,
+        }
+      }
+    >
+      Extra Sausage Pizza
+    </Themed.CardTitle>
+    <Themed.CardDivider
+      color="white"
+      width={2}
+    />
+    <Themed.CardImage
+      source={
+        Object {
+          "uri": "https://sausage.com",
+        }
+      }
+      style={
+        Object {
+          "padding": 0,
+        }
+      }
+    />
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "margin": 5,
+        }
+      }
+    >
+      It has a lot of sausage
+    </Text>
+    <Text
+      style={
+        Object {
+          "color": "white",
+          "margin": 5,
+        }
+      }
+    >
+      $5.00
+    </Text>
+  </Themed.Card>
+</View>
+`;
+
+exports[`<Menu /> the screen toggleOverlay can display an overlay 1`] = `
+<React.Fragment>
+  <Themed.Header
+    backgroundColor="#f24e49"
+    centerComponent={
+      Object {
+        "style": Object {
+          "color": "#fff",
+          "fontSize": 22,
+          "fontWeight": "bold",
+        },
+        "text": "Pizza",
+      }
+    }
+    rightComponent={
+      <View
+        style={
+          Object {
+            "marginRight": 10,
+          }
+        }
+      >
+        <ForwardRef
+          onPress={[Function]}
+          style={
+            Object {
+              "alignItems": "center",
+              "flexDirection": "row",
+            }
+          }
+        >
+          <Text
+            style={
+              Object {
+                "color": "#fff",
+                "fontSize": 16,
+              }
+            }
+          >
+            Add Item
+          </Text>
+          <Themed.Icon
+            color="white"
+            name="add"
+          />
+        </ForwardRef>
+      </View>
+    }
+  />
+  <Themed.Overlay
+    isVisible={false}
+    onBackdropPress={[Function]}
+  >
+    <Text
+      style={
+        Object {
+          "fontSize": 20,
+          "marginVertical": 20,
+          "textAlign": "center",
+        }
+      }
+    >
+      Are you sure you want to delete this item?
+    </Text>
+    <Themed.Button
+      buttonStyle={
+        Object {
+          "backgroundColor": "red",
+          "margin": 10,
+        }
+      }
+      onPress={[Function]}
+      testID="Confirm Delete"
+      title="Delete"
+    />
+  </Themed.Overlay>
+  <FlatList
+    data={
       Array [
         Object {
           "description": "Cheese",
@@ -1423,7 +1391,18 @@ exports[`<App /> the screens renders the home screen correctly 2`] = `
         },
       ]
     }
-    navigation={[Function]}
+    disableVirtualization={false}
+    horizontal={false}
+    initialNumToRender={10}
+    keyExtractor={[Function]}
+    maxToRenderPerBatch={10}
+    numColumns={1}
+    onEndReachedThreshold={2}
+    removeClippedSubviews={false}
+    renderItem={[Function]}
+    scrollEventThrottle={50}
+    updateCellsBatchingPeriod={50}
+    windowSize={21}
   />
-</SafeAreaProvider>
+</React.Fragment>
 `;
