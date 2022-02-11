@@ -28,8 +28,15 @@ export const menuStyles = {
     borderRadius: 10,
     backgroundColor: '#5bd1d7',
   },
-  cardIcon: {
-    alignSelf: 'flex-end'
+  cardIconLeft: {
+    alignSelf: 'flex-start',
+  },
+  cardIconRight: {
+    justifyContent: 'flex-end'
+  },
+  editButtonSet: {
+    flexDirection: 'row',
+    justifyContent: 'space-between',
   },
   lightTheme: {
     color: 'white',

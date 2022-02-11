@@ -10,7 +10,6 @@ export default class App extends PureComponent {
     this.state = {
       navigation: {
         route: 'Home',
-        params: {}
       }
     }
   }

@@ -108,6 +108,7 @@ describe('<Menu />', () => {
             description: 'It has a lot of pepperoni',
             price: '$10.00'
           }],
+          isEditing: false,
           visible: true,
           pendingItem: ''
         };
@@ -191,6 +192,7 @@ describe('<Menu />', () => {
           price: '$5.00'
         }
         ],
+        isEditing: true,
         visible: true,
         pendingItem: [{
           img: 'https://sausage.com',
@@ -208,19 +210,141 @@ describe('<Menu />', () => {
         expect(component.state).toMatchSnapshot();
       });
     });
-    describe('renderItem', () => {
-      it('can display an item, and press the delete icon', () => {
-        const data = {
-          item: {
-            img: 'https://sausage.com',
-            name: 'Extra Sausage Pizza',
-            description: 'It has a lot of sausage',
-            price: '$5.00'
-          },
-        };
-        const component = new Menu();
-        expect(component.renderItem(data)).toMatchSnapshot();
+    describe('handleFormEditing', () => {
+      const props = {
+        menu: [
+          {
+            img: 'https://pepperoni.com',
+            name: 'Extra Pepperoni Pizza',
+            description: 'It has a lot of pepperoni',
+            price: '$10.00'
+          }
+        ],
+        navigation: jest.fn(() => ({
+          route: 'Home',
+          params: {}
+        })),
+      };
+      const state = {
+        menuState: [{
+          img: 'https://pepperoni.com',
+          name: 'Extra Pepperoni Pizza',
+          description: 'It has a lot of pepperoni',
+          price: '$10.00'
+        }
+        ],
+        visible: true,
+        pendingItem: '',
+        isEditing: false,
+      };
+      it('can set isEditing to true', async () => {
+        const component = new Menu(props);
+        component.state = state;
+        component.setState = jest.fn();
+        component.handleFormEditing();
+        expect(await component.setState).toBeCalled();
       });
     });
+    describe('handleEditedItem', () => {
+      const props = {
+        menu: [
+          {
+            img: 'https://pepperoni.com',
+            name: 'Extra Pepperoni Pizza',
+            description: 'It has a lot of pepperoni',
+            price: '$10.00'
+          }
+        ],
+        navigation: jest.fn(() => ({
+          route: 'Home',
+          params: {}
+        })),
+      };
+      const state = {
+        menuState: [{
+          img: 'https://pepperoni.com',
+          name: 'Extra Pepperoni Pizza',
+          description: 'It has a lot of pepperoni',
+          price: '$10.00'
+        },
+        {
+          img: 'https://sausage.com',
+          name: 'Extra Sausage Pizza',
+          description: 'It has a lot of sausage',
+          price: '$5.00'
+        }
+        ],
+        visible: true,
+        pendingItem: '',
+        isEditing: false,
+      };
+      const itemFromChild = {
+        edited: true,
+        initialItem: state.menuState[0],
+        editedItem: {
+          img: state.menuState[0].img,
+          name: state.menuState[0].name,
+          description: state.menuState[0].description,
+          price: '$15.00',
+        },
+      };
+      it('can add an edited item to the list of cards', async () => {
+        const component = new Menu(props);
+        component.state = state;
+        component.setState = jest.fn();
+        component.handleFormEditing = jest.fn();
+        component.handleEditedItem(itemFromChild);
+        expect(await component.setState).toBeCalled();
+        expect(await component.handleFormEditing).toBeCalled();
+      });
+      it('can add an edited item to the list of cards', async () => {
+        const newItemFromChild = {
+          edited: undefined,
+        };
+        const component = new Menu(props);
+        component.state = state;
+        component.setState = jest.fn();
+        component.handleFormEditing = jest.fn();
+        component.handleEditedItem(newItemFromChild);
+        expect(await component.setState).not.toBeCalled();
+        expect(await component.handleFormEditing).toBeCalled();
+      });
+      it('can add an edited item to the list of cards', async () => {
+        const newItemFromChild = {
+          ...itemFromChild,
+          editedItem: {
+            img: 'https://cheese.com',
+            name: 'Cheese Pizza',
+            description: 'It has so much cheese',
+            price: state.menuState[0].price,
+          }
+        }
+        const component = new Menu(props);
+        component.state = state;
+        component.setState = jest.fn();
+        component.handleFormEditing = jest.fn();
+        component.handleEditedItem(newItemFromChild);
+        expect(await component.setState).toBeCalled();
+        expect(await component.handleFormEditing).toBeCalled();
+      });
+    });
+    describe('renderItem', () => {
+      const props = {
+        item: {
+          img: 'https://pepperoni.com',
+          name: 'Extra Pepperoni Pizza',
+          description: 'It has a lot of pepperoni',
+          price: '$10.00'
+        },
+        index: '0',
+      };
+      it('can render the EditableCard', () => {
+        const component = new Menu(props);
+        component.renderItem = jest.fn();
+        component.renderItem(props);
+        expect(component.renderItem).toBeCalled();
+        expect(component.renderItem).toMatchSnapshot();
+      })
+    })
   });
 });

@@ -1,9 +1,9 @@
 import React, { Fragment } from 'react';
 import { FlatList, View, TouchableOpacity, Text } from 'react-native';
-import { Card, Header, Icon, Overlay, Button } from 'react-native-elements';
-import testID from 'react-native-testid';
+import { Header, Icon, Overlay, Button } from 'react-native-elements';
 import { headerStyles, menuStyles } from '../../styles/styles';
 import { Pizzas } from '../../fixtures/PizzaData';
+import { EditableCard } from '../EditableCard/EditableCard';
 
 export default class MenuScreen extends React.Component {
   constructor(props) {
@@ -11,7 +11,8 @@ export default class MenuScreen extends React.Component {
     this.state = {
       menuState: Pizzas,
       visible: false,
-      pendingItem: ''
+      pendingItem: '',
+      isEditing: false,
     };
   }
 
@@ -23,36 +24,58 @@ export default class MenuScreen extends React.Component {
       img: menuItem.img,
     }));
     const { params } = this.props.navigation();
-    if(!!params) {
-      return this.setState({menuState: [ ...menu, params]});
-    } 
+    if(!this.state.isEditing) {
+      if(!!params) {
+        return this.setState({menuState: [ ...menu, params]});
+      }
+    }
   }
+
+  handleFormEditing = () => this.setState({ isEditing: !this.state.isEditing });
+
+  handleEditedItem = itemFromChild => {
+    this.handleFormEditing();
+    if (itemFromChild.edited) {
+      const { menuState } = this.state;
+      const { editedItem, initialItem } = itemFromChild;
+      let editedMenuState = [];
+      menuState.map(menuStateItem => {
+        if ( menuStateItem.description === initialItem.description) {
+          return (
+            editedMenuState.push(
+              {
+                img: !!editedItem.img ? editedItem.img : menuStateItem.img,
+                name: !!editedItem.name ? editedItem.name : menuStateItem.name,
+                description: !!editedItem.description ? editedItem.description : menuStateItem.description,
+                price: !!editedItem.price ? editedItem.price : menuStateItem.price,
+              }
+            ));
+          }
+        });
+      const newMenuState = menuState.filter(menuStateItem => menuStateItem.description !== initialItem.description);
+      const combinedMenus = [...newMenuState, ...editedMenuState];
+      return this.setState({ menuState: combinedMenus});
+    }
+  }
+
   toggleOverlay = item => { this.setState({ visible: !this.state.visible, pendingItem: item }); }
 
   handleDeleteItem = () => { this.setState({
       menuState: this.state.menuState.filter(itemFromState => itemFromState.name !== this.state.pendingItem.name),
       visible: !this.state.visible,
+      isEditing: !this.state.isEditing
     });
   }
 
   keyExtractor = (item, index) => index.toString();
 
   renderItem = ({ item, index }) => (
-    <View style={ menuStyles.container }>
-      <Card containerStyle={ menuStyles.cardContainer }>
-        <TouchableOpacity { ...testID(`Delete-${index}`) } style={ menuStyles.cardIcon } onPress={/* istanbul ignore next */ () => this.toggleOverlay(item) }>
-          <Icon name='delete' color='white'/>
-        </TouchableOpacity>
-        <Card.Title style={ menuStyles.lightTheme }>{item.name}</Card.Title>
-        <Card.Divider width={2} color='white' />
-        <Card.Image
-          style={ { padding: 0 } }
-          source={{ uri: item.img }}
-        />
-        <Text style={ menuStyles.lightTheme }>{item.description}</Text>
-        <Text style={ menuStyles.lightTheme }>{item.price}</Text>
-      </Card>
-    </View>
+    <EditableCard
+      item={ item }
+      index={ index }
+      handleEditedItem={ this.handleEditedItem }
+      onDelete={ () => this.toggleOverlay(item) }
+    />
   );
   
   render() {
@@ -81,16 +104,10 @@ export default class MenuScreen extends React.Component {
       </Overlay>
       <FlatList
         keyExtractor={this.keyExtractor}
-        data={this.state.menuState.filter(element => {
-          if (Object.keys(element).length !== 0) {
-            return true;
-          }
-          return false;
-        })}
+        data={ this.state.menuState }
         renderItem={this.renderItem}
       />
     </Fragment>
     );
   }
-
 }

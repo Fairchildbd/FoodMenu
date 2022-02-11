@@ -2,6 +2,7 @@
 
 exports[`<Menu /> the screen handleDeleteItem can delete an item 1`] = `
 Object {
+  "isEditing": true,
   "menuState": Array [
     Object {
       "description": "It has a lot of pepperoni",
@@ -894,84 +895,28 @@ exports[`<Menu /> the screen has a render with params from props 1`] = `
 </React.Fragment>
 `;
 
-exports[`<Menu /> the screen renderItem can display an item, and press the delete icon 1`] = `
-<View
-  style={
-    Object {
-      "marginVertical": 10,
-    }
-  }
->
-  <Themed.Card
-    containerStyle={
+exports[`<Menu /> the screen renderItem can render the EditableCard 1`] = `
+[MockFunction] {
+  "calls": Array [
+    Array [
       Object {
-        "backgroundColor": "#5bd1d7",
-        "borderRadius": 10,
-      }
-    }
-  >
-    <ForwardRef
-      onPress={[Function]}
-      style={
-        Object {
-          "alignSelf": "flex-end",
-        }
-      }
-      testID="Delete-undefined"
-    >
-      <Themed.Icon
-        color="white"
-        name="delete"
-      />
-    </ForwardRef>
-    <Themed.CardTitle
-      style={
-        Object {
-          "color": "white",
-          "margin": 5,
-        }
-      }
-    >
-      Extra Sausage Pizza
-    </Themed.CardTitle>
-    <Themed.CardDivider
-      color="white"
-      width={2}
-    />
-    <Themed.CardImage
-      source={
-        Object {
-          "uri": "https://sausage.com",
-        }
-      }
-      style={
-        Object {
-          "padding": 0,
-        }
-      }
-    />
-    <Text
-      style={
-        Object {
-          "color": "white",
-          "margin": 5,
-        }
-      }
-    >
-      It has a lot of sausage
-    </Text>
-    <Text
-      style={
-        Object {
-          "color": "white",
-          "margin": 5,
-        }
-      }
-    >
-      $5.00
-    </Text>
-  </Themed.Card>
-</View>
+        "index": "0",
+        "item": Object {
+          "description": "It has a lot of pepperoni",
+          "img": "https://pepperoni.com",
+          "name": "Extra Pepperoni Pizza",
+          "price": "$10.00",
+        },
+      },
+    ],
+  ],
+  "results": Array [
+    Object {
+      "type": "return",
+      "value": undefined,
+    },
+  ],
+}
 `;
 
 exports[`<Menu /> the screen toggleOverlay can display an overlay 1`] = `
